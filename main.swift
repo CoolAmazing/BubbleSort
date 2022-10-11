@@ -13,8 +13,8 @@ func readWords() -> [String] {
 
 func bubbleSort(_ array: [String]) -> [String] {
     var a = readWords()
-    for _ in 0..<array.count - 1 {
-        for x in 0 ..< array.count - 1 {
+    for _ in 0 ..< a.count - 1 {
+        for x in 0 ..< a.count - 1 {
             if a[x] > a[x+1] {
                 let temp = a[x]
                 a[x] = a[x+1]
