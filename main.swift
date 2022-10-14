@@ -26,8 +26,7 @@ func bubbleSort(_ array: [String]) -> [String] {
 }
 
 let a = bubbleSort(words)
-/**
+
 for x in a {
     print(x)
 }
-**/
